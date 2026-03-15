@@ -55,7 +55,7 @@ printf("Waiting for message...\n");
 
 msgrcv(msgid,&msg,sizeof(msg.text),1,0);
 
-printf("Received: %s\n",msg.text);
+printf("Reeived: %s\n",msg.text);
 
 return 0;
 }
